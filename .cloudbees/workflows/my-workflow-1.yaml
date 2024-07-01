@@ -10,7 +10,7 @@ on:
 jobs:
   build:
     steps:
-      - name: Say hello 2
+      - name: Say hello 3
         uses: docker://golang:1.20.3-alpine3.17
         shell: sh
         run: |
